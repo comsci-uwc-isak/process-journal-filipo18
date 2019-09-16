@@ -1,10 +1,7 @@
 #!/bin/bash
 
 
-#program has the same problem as loop.sh
-#we still din't figgured out how to make 
-#while loop with logical operator true false !
-#ASK TEACHER!!!
+#program will print out runnging avregae of eneterd numbers
 
 
 echo "Welcome to the Running Average"

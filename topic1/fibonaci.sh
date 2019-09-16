@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#program will print down n number of fibonachi numbers
 
 echo -n "Enter number of terms and press ENTER: "
 read N

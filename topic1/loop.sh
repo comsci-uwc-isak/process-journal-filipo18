@@ -10,10 +10,10 @@
 (( x=(RANDOM%10) + 1))
 
 try=0
-win=false
+win=true
 echo $x
 
-while [ $win == false ]
+while $win
     do
         echo $win
         echo -n "Enter a number: "
@@ -23,7 +23,7 @@ while [ $win == false ]
             echo "too big"
         elif [ $num -eq $x ];then
             echo "You won, it took you " $try "try"
-            win=true
+            win=false
             echo $win
         else 
             echo "too small"
