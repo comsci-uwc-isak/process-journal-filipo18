@@ -1,12 +1,19 @@
 #!/bin/bash
 
+#program has the same problem as average.sh
+#we still din't figgured out how to make 
+#while loop with logical operator true false !
+#ASK TEACHER!!!
+
+
+
 (( x=(RANDOM%10) + 1))
 
 try=0
 win=false
 echo $x
 
-while [[ $win ]
+while [ $win == false ]
     do
         echo $win
         echo -n "Enter a number: "
