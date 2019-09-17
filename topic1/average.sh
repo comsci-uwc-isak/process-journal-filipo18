@@ -9,7 +9,7 @@ echo "Welcome to the Running Average"
 valid=true
 sum=0
 n=0
-while [ $valid == true ]
+while $valid
 do
 
 	echo "Enter a number or Exit (X): "
