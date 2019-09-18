@@ -5,9 +5,9 @@ This repository contains the coding and other task created created during the Co
 
 Table of contents
 -----------------
-* [Usage] (#usage) 
-* [Organization] (#organization)
-* [License] (#license)
+  * [Usage](#usage) 
+  * [Organization](#organization)
+  * [License](#license)
 
 Usage
 ----------
